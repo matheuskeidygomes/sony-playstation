@@ -20,7 +20,7 @@ export default function Header() {
             <div className="flex justify-between items-center md:grow">
 
                 <NavMenu onClick={()=> setMenuActive(!menuActive)} menuActive={menuActive} display={display} />
-
+              
                 <Social/>
 
                 <div className={`${menuActive ? "hidden" : "block"} md:hidden cursor-pointer`}>

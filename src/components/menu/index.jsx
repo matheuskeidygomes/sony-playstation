@@ -6,9 +6,9 @@ export default function Menu(props) {
 
     return <>
 
-        <nav className={`${props.display} ml-8 md:block`}>
+        <nav className={`${props.display} ml-8 md:block h-full`}>
 
-            <ul className={`flex flex-col ${props.menuActive ? "animate-slide items-center w-80 bg-[#ffffff0d] backdrop-blur-sm md:bg-transparent absolute top-0 right-0 min-h-screen p-5" : ""} md:flex-row md:static md:min-h-fit`}>
+            <ul className={`flex flex-col ${props.menuActive ? "animate-slide items-center w-80 bg-[#ffffff0d] backdrop-blur-sm md:bg-transparent absolute top-0 right-0 min-h-full p-5" : ""} md:flex-row md:static md:min-h-fit`}>
 
                 <img className="w-10 cursor-pointer md:hidden absolute top-19 right-5 bg" src={quit} onClick={() => props.onClick()} alt="quit" />
 
@@ -16,16 +16,13 @@ export default function Menu(props) {
                 <li className="p-3 lg:p-5"> GAMES </li>
                 <li className="p-3 lg:p-5"> WALLPAPERS </li>
 
+                <div className="flex mt-10 md:hidden">
 
+                    <Social menuActive={props.menuActive} />
+
+                </div>
 
             </ul>
-
-            <div className="md:hidden">
-
-                <Social menuActive={props.menuActive} flex="flex" />
-
-            </div>
-
 
         </nav>
 
