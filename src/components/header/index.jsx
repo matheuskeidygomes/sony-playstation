@@ -21,7 +21,7 @@ export default function Header() {
 
                 <NavMenu onClick={()=> setMenuActive(!menuActive)} menuActive={menuActive} display={display} />
               
-                <Social/>
+                <Social />
 
                 <div className={`${menuActive ? "hidden" : "block"} md:hidden cursor-pointer`}>
                     <img className="h-14" src={Menu} onClick={() => setMenuActive(!menuActive)} alt="menutoggle"/>

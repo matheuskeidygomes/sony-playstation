@@ -1,21 +1,22 @@
 import React from "react";
 import Layout from "./components/layout/index";
-import Home from './pages/index';
+import Home from './pages/home/index';
 import Header from './components/header';
 
-function App() {
+export default function App() {
+
   return <>
 
     <Layout>
 
-      <Header/>
+      <Header />
 
-      <Home/>
-
+      <Home />
 
     </Layout>
 
   </>
-}
 
-export default App;
+};
+
+

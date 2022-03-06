@@ -1,6 +1,6 @@
 module.exports = {
   purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
-  darkMode: 'class', // or 'media' or 'class'
+  darkMode: 'class',
   content: [],
   theme: {
     extend: {
@@ -10,8 +10,8 @@ module.exports = {
           '100%': { transform: 'translateX(0px)' },
         },
         pulse3: {
-          '0%,100%' : {'opacity': 1},
-          '50%':  { 'opacity': .3}
+          '0%,100%': { 'opacity': 1 },
+          '50%': { 'opacity': .3 }
         }
       },
       animation: {

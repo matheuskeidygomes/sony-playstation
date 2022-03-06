@@ -1,8 +1,8 @@
 import React from "react";
-import SpiderText from '../components/images/games/spiderman-text.png';
-import Spiderman from '../components/images/games/spiderman.png';
-import Logo from "../components/images/icons/ps.png";
-import Marvel from '../components/images/icons/marvel.png';
+import SpiderText from '../../components/images/games/spiderman-text.png';
+import Spiderman from '../../components/images/games/spiderman.png';
+import Logo from "../../components/images/icons/ps.png";
+import Marvel from '../../components/images/icons/marvel.png';
 
 export default function Home() {
 
@@ -12,11 +12,11 @@ export default function Home() {
 
             <div className="flex flex-col lg:flex-row">
 
-                <div className="flex lg:w-3/5 items-center justify-center"  >
+                <div className="flex items-center justify-center lg:w-3/5">
                     <img className="transition hover:scale-110" src={Spiderman} alt="spiderman" />
                 </div>
 
-                <div className="flex flex-col p-5 lg:w-2/5 items-center justify-center">
+                <div className="flex flex-col items-center justify-center p-5 lg:w-2/5">
 
                     <img className="transition hover:scale-105" src={SpiderText} alt="spidertext" />
 
@@ -29,15 +29,15 @@ export default function Home() {
 
                     </div>
 
-                    <div className="flex mt-3 justify-center w-full">
+                    <div className="flex justify-center w-full mt-3">
 
-                        <button className="transition hover:scale-105 bg-red-600 rounded-tl-lg rounded-br-lg w-full m-2 p-2">
+                        <button className="w-full m-2 p-2 bg-red-600 rounded-tl-lg rounded-br-lg transition hover:scale-105">
                             <a href="https://www.playstation.com/pt-br/games/marvels-spider-man-miles-morales/" target="_blank" rel="noreferrer">
                                 PRE-ORDER NOW
                             </a>
                         </button>
 
-                        <button className="border transition hover:scale-105 rounded-tl-lg rounded-br-lg w-full m-2 p-2">
+                        <button className="w-full m-2 p-2 border rounded-tl-lg rounded-br-lg transition hover:scale-105">
                             <a href="https://www.youtube.com/watch?v=qjRzm9A7DU4" target="_blank" rel="noreferrer">
                                 WATCH THE TRAILER
                             </a>
@@ -47,8 +47,8 @@ export default function Home() {
 
                     <div className="w-full">
 
-                        <div className="flex justify-start items-start">
-                            <img className="m-2 w-10 h-10" src={Logo} alt="logo" />
+                        <div className="flex">
+                            <img className="m-2 w-10" src={Logo} alt="logo" />
                             <img className="m-2 w-20" src={Marvel} alt="marvel" />
                         </div>
 
