@@ -1,8 +1,12 @@
 import React from "react";
 import SpiderText from '../../components/images/games/spiderman-text.png';
 import Spiderman from '../../components/images/games/spiderman.png';
-import Logo from "../../components/images/icons/ps.png";
 import Marvel from '../../components/images/icons/marvel.png';
+import Guerrila from '../../components/images/icons/guerrilalogo.png'
+import Horizon from '../../components/images/games/horizon-zero.png';
+import HorizonText from '../../components/images/games/horizon-text.png';
+import BannerLeft from "../../components/gamebannerleft";
+import BannerRight from "../../components/gamebannerright";
 
 export default function Home() {
 
@@ -10,53 +14,24 @@ export default function Home() {
 
         <section>
 
-            <div className="flex flex-col lg:flex-row">
+            <BannerLeft banner={Spiderman} bannerText={SpiderText} buttonColor="bg-red-600" buy="https://www.playstation.com/pt-br/games/marvels-spider-man-miles-morales/" trailer="https://www.youtube.com/watch?v=qjRzm9A7DU4" gamelogo={Marvel}>
 
-                <div className="flex items-center justify-center lg:w-3/5">
-                    <img className="transition hover:scale-110" src={Spiderman} alt="spiderman" />
-                </div>
+                Marvel's Spider-Man: Miles Morales is a 2020 action-adventure game developed
+                by Insomniac Games and published by Sony Interactive Entertainment.
 
-                <div className="flex flex-col items-center justify-center p-5 lg:w-2/5">
+            </BannerLeft>
 
-                    <img className="transition hover:scale-105" src={SpiderText} alt="spidertext" />
+        </section>
 
-                    <div className="mt-4">
+        <section>
 
-                        <span className="text-sm text-gray-400">
-                            Marvel's Spider-Man: Miles Morales is a 2020 action-adventure game developed
-                            by Insomniac Games and published by Sony Interactive Entertainment.
-                        </span>
+            <BannerRight banner={Horizon} bannerText={HorizonText} buttonColor="bg-sky-700" buy="https://store.playstation.com/en-us/product/UP9000-CUSA10237_00-HRZCE00000000000" trailer="https://www.youtube.com/watch?v=wzx96gYA8ek" gamelogo={Guerrila}>
 
-                    </div>
+                Take on the role of skilled hunter Aloy as you explore a lush world inhabited by
+                mysterious mechanized creatures in an exhilarating new Open World Action/ RPG
+                exclusively for the PlayStation®4 System.
 
-                    <div className="flex justify-center w-full mt-3">
-
-                        <button className="w-full m-2 p-2 bg-red-600 rounded-tl-lg rounded-br-lg transition hover:scale-105">
-                            <a href="https://www.playstation.com/pt-br/games/marvels-spider-man-miles-morales/" target="_blank" rel="noreferrer">
-                                PRE-ORDER NOW
-                            </a>
-                        </button>
-
-                        <button className="w-full m-2 p-2 border rounded-tl-lg rounded-br-lg transition hover:scale-105">
-                            <a href="https://www.youtube.com/watch?v=qjRzm9A7DU4" target="_blank" rel="noreferrer">
-                                WATCH THE TRAILER
-                            </a>
-                        </button>
-
-                    </div>
-
-                    <div className="w-full">
-
-                        <div className="flex">
-                            <img className="m-2 w-10" src={Logo} alt="logo" />
-                            <img className="m-2 w-20" src={Marvel} alt="marvel" />
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
+            </BannerRight>
 
         </section>
 
