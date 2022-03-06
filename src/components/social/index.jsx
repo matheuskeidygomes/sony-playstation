@@ -8,7 +8,7 @@ export default function Social(props) {
 
     return <>
 
-        <div className={`${props.menuActive ? "" : "hidden"} ${props.flex} md:block md:flex`}>
+        <div className={`flex flex-row ${props.menuActive ? ""  : "hidden"} md:block`}>
 
             <a target="_blank" href="https://www.facebook.com/SonyBrasil/"> <img className="w-6 ml-3" src={facebook} alt="facebook" /> </a>
             <a target="_blank" href="https://www.instagram.com/playstation_br/"> <img className="w-6 ml-3" src={instagram} alt="instagram" /> </a>

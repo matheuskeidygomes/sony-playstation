@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import psicon from '../images/ps.png';
 import Menu from '../images/menu.png';
+import Logo from "../logo";
 import NavMenu from '../menu';
 import Social from "../social";
 
@@ -14,9 +14,7 @@ export default function Header() {
         <header className="flex items-center justify-between">
 
             <div>
-
-                <img className="h-28 animate-pulse3" src={psicon} alt="ps"/>
-
+                <Logo/>
             </div>
 
             <div className="flex justify-between items-center md:grow">
