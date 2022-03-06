@@ -47,7 +47,7 @@ export default function BannerLeft(props) {
             </div>
 
             <div className="flex items-center justify-center lg:w-3/5">
-                <img className="transition hover:scale-110" src={props.banner} alt="gamebanner" />
+                <img className="transition hover:scale-105" src={props.banner} alt="gamebanner" />
             </div>
 
         </div>

@@ -5,7 +5,7 @@ export default function Layout(props) {
 
     return <>
 
-        <div class="gradient p-5 min-h-screen">
+        <div class="p-5 gradient min-h-screen">
 
             {props.children}
 
