@@ -1,5 +1,5 @@
 import React from 'react';
-import psicon from '../images/ps.png';
+import psicon from '../images/icons/ps.png';
 
 export default function Logo() {
 

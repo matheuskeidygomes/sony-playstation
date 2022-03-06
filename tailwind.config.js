@@ -6,7 +6,7 @@ module.exports = {
     extend: {
       keyframes: {
         slide: {
-          '0%': { transform: 'translateX(320px)' },
+          '0%': { transform: 'translateX(100%)' },
           '100%': { transform: 'translateX(0px)' },
         },
         pulse3: {
