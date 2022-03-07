@@ -20,7 +20,7 @@ const Home = () => {
                     </span>
                 </div>
                 
-                //falta colocar os botões de comprar
+                {/* falta colocar os botões de comprar */}
             </div>
 
         </section>

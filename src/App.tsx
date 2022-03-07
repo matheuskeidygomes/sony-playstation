@@ -5,8 +5,8 @@ import Home from './pages/Home/Home'
 function App() {
 
   return (
-    <div className="min-h-screen">
-      <div className="gradient">
+    <div className="h-screen">
+      <div className=" h-screen gradient">
           <Navbar />
 
           <Home />
