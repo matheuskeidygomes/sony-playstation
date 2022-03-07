@@ -1,7 +1,7 @@
 import React from 'react'
 import Logo from "../../components/images/icons/ps.png"
 
-export default function BannerLeft(props) {
+export default function GameBanner(props) {
 
     return <>
 
