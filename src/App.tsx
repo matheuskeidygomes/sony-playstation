@@ -5,13 +5,11 @@ import Home from './pages/Home/Home'
 function App() {
 
   return (
-    <div className="h-screen">
-      <div className=" h-screen gradient">
+    <div className="h-full gradient md:h-screen">
           <Navbar />
 
           <Home />
 
-      </div>
     </div>
   )
 }

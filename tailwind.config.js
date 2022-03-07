@@ -9,12 +9,12 @@ module.exports = {
         },
         pulse1: {
           '0%,100%': {'opacity': 1},
-          '50%': {'opacity': .7}
+          '50%': {'opacity': .5}
         }
       },
       animation: {
         slide: 'slide 0.5s ease',
-        pulse1: 'pulse1 4s cubic-bezier(0.4, 0, 0.6, 1) infinite'
+        pulse1: 'pulse1 3s cubic-bezier(0.4, 0, 0.6, 1) infinite'
       }
     },
   },
