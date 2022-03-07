@@ -1,5 +1,6 @@
 import React from 'react'
 import Logo from "../../components/images/icons/ps.png"
+import Tilt from 'react-parallax-tilt';
 
 export default function GameBanner(props) {
 
@@ -8,7 +9,10 @@ export default function GameBanner(props) {
         <div className="flex flex-col lg:flex-row">
 
             <div className="flex items-center justify-center lg:w-3/5">
-                <img className="transition hover:scale-105" src={props.banner} alt="gamebanner" />
+
+                <Tilt>
+                <img src={props.banner} alt="gamebanner" />
+                </Tilt>
             </div>
 
             <div className="flex flex-col items-center justify-center p-5 lg:w-2/5">

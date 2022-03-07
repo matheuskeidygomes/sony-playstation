@@ -15,7 +15,7 @@ module.exports = {
         }
       },
       animation: {
-        slide: 'slide 0.5s ease',
+        slide: 'slide 0.3s ease',
         pulse3: 'pulse3 3s cubic-bezier(0.4, 0, 0.6, 1) infinite'
       }
     },
