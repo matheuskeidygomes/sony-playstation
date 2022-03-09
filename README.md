@@ -9,6 +9,7 @@ Site de marketing a respeito do console Playstation da Sony. Destinado a anuncia
 <h2 align="center">
  <a href="#Status">Status</a> •
  <a href="#Features">Features</a> •
+ <a href="#Repositório-Online">Repositório Online</a> • 
  <a href="#Screenshots">Screenshots</a> • 
  <a href="#Pré-requisitos">Pré-requisitos</a> • 
  <a href="#Rodando-a-aplicação">Rodando a aplicação</a> • 
@@ -28,6 +29,14 @@ Site de marketing a respeito do console Playstation da Sony. Destinado a anuncia
 - [ ] Listar jogos exclusivos na página Games.
 - [ ] Verificar informações e screenshots de jogo em específico.
 - [ ] Fazer download de papéis de parede disponíveis na página Wallpapers.
+
+# Repositório Online
+
+Acesse clicando no botão abaixo:   
+  
+<a href="https://sony-playstation.herokuapp.com/"> 
+    <img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white"/> 
+</a>
 
 # Screenshots
 
