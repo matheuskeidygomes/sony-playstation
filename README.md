@@ -40,7 +40,9 @@ Acesse clicando no botão abaixo:
 
 # Screenshots
 
-![calculator](https://user-images.githubusercontent.com/74063350/138950834-e3c75cdb-3c16-4d17-8833-2ded5b5e32ef.JPG)
+![Captura de tela de 2022-03-09 11-45-01](https://user-images.githubusercontent.com/74063350/157465433-71b3088b-e94d-402d-9bec-35637c189d4b.png)
+
+![Captura de tela de 2022-03-09 11-45-12](https://user-images.githubusercontent.com/74063350/157465547-cf2e0912-89ba-4490-b416-e9607664afd6.png)
 
 # Pré-requisitos
 
