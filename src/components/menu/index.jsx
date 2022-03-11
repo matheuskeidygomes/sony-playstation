@@ -1,7 +1,6 @@
 import React from 'react';
 import quit from '../images/icons/x.png';
 import Social from '../social';
-import { Link } from 'react-router-dom';
 import './index.css';
 
 export default function Menu(props) {
@@ -14,9 +13,9 @@ export default function Menu(props) {
 
                 <img className="w-10 md:hidden absolute top-5 right-5 cursor-pointer" src={quit} onClick={() => props.onClick()} alt="quit" />
 
-                <li className="font p-3 lg:p-5 mt-16 md:mt-0"> <Link to="/"> HOME </Link> </li> 
-                <li className="font p-3 lg:p-5"> <Link to="/games"> GAMES </Link> </li>
-                <li className="font p-3 lg:p-5"> <Link to="/wallpapers"> WALLPAPERS </Link> </li> 
+                <li className="font p-3 lg:p-5 mt-16 md:mt-0"> <a href="/"> HOME </a> </li>
+                <li className="font p-3 lg:p-5"> <a href="/games"> GAMES </a> </li>
+                <li className="font p-3 lg:p-5"> <a href="/wallpapers"> WALLPAPERS </a> </li>
 
                 <div className="mt-10 md:hidden">
                     <Social menuActive={props.menuActive} />
