@@ -11,25 +11,25 @@ export default function App() {
 
   return <>
 
-    <Layout>
+    <BrowserRouter>
 
-      <Header />
+      <Layout>
 
-      <BrowserRouter>
+        <Header />
 
         <Routes>
 
           <Route path="/" element={<Home />} />
           <Route path="/games" element={<Games />} />
-          <Route path="/wallpaper" element={<Wallpapers />} />
+          <Route path="/wallpapers" element={<Wallpapers />} />
 
         </Routes>
 
-      </BrowserRouter>
+      </Layout>
 
-    </Layout>
+      <Footer />
 
-    <Footer />
+    </BrowserRouter>
 
   </>
 
