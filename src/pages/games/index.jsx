@@ -5,12 +5,13 @@ export default function Games() {
 
     return <>
 
-        <div class="">
+        <div class="border-t-2 border-b-2 border-gray-900 flex justify-center items-center bg-cover bg-no-repeat bg-center " style={{ backgroundImage: `url(${Exclusives})`, height:400 }}>
 
-            <img src={Exclusives} />
-
-
+            <div class="bg-black rounded-md p-5 opacity-70">
+                    <span className="opacity-100"> olá </span> 
+            </div>
+    
         </div>
     
     </>
-}
+} 
