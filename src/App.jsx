@@ -25,9 +25,9 @@ export default function App() {
 
         </Routes>
 
-      </Layout>
+        <Footer />
 
-      <Footer />
+      </Layout>
 
     </BrowserRouter>
 
