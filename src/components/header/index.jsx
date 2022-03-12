@@ -11,7 +11,7 @@ export default function Header() {
 
     return <>
 
-        <header className="p-5 flex items-center justify-between">
+        <header className="p-1 flex items-center justify-between">
 
             <div>
                 <Logo/>
