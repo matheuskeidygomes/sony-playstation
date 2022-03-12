@@ -12,7 +12,7 @@ export default function ModalGame(props) {
 
             <div className="flex animate-fade flex-col lg:flex-row bg fixed h-full lg:h-5/6 overflow-y-auto border-t-2 border-b-2 border-gray-900 pt-20 lg:p-10">
 
-                <button className="absolute top-9 right-4" onClick={() => props.Click()}> <img className="w-8" src={X} alt="X"/> </button>
+                <button className="absolute top-9 right-4 transition-all hover:scale-125" onClick={() => props.Click()}> <img className="w-8" src={X} alt="X"/> </button>
 
                 <div className="lg:w-3/5 p-4">
 
@@ -46,8 +46,16 @@ export default function ModalGame(props) {
                         <span className="text-sm font-semibold"> {game.platform} </span>
                     </div>
 
-                    <div className="pt-3">
+                    <div className="pt-3 pb-5">
                         <span className="text-sm font-light"> {game.synopsis}</span>
+                    </div>
+
+                    <div className="flex flex-col lg:flex-row justify-center w-full">
+
+                        <button className="bg-red-600 rounded-tl-lg rounded-br-lg p-3 m-2 transition hover:scale-105 lg:w-1/2"> BUY NOW </button>
+
+                        <button className="border rounded-tl-lg rounded-br-lg p p-3 m-2 transition hover:scale-105 lg:w-1/2"> WATCH THE TRAILER </button>
+
                     </div>
 
                 </div>
