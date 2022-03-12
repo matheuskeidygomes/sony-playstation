@@ -9,7 +9,7 @@ export default function GameItem(props) {
         <div className="flex flex-col m-4">
 
             <div>
-                <img className="rounded-lg border-2 border-gray-900" src={game.image} alt="game" />
+                <img className="rounded-md border-2 border-gray-900" src={game.image} alt="game" />
             </div>
 
             <div className="flex flex-col">

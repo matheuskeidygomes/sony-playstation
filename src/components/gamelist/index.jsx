@@ -6,7 +6,7 @@ export default function GameList(props) {
 
     return <>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 bg-[#ffffff0d] backdrop-blur-xl p-5">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 bg-[#ffffff0d] backdrop-blur-xl">
 
             {games.map((item, index) => {
 
