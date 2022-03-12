@@ -11,9 +11,7 @@ export default function GameList(props) {
             {games.map((item, index) => {
 
                 return <>
-
                     <GameItem game={item} Click={props.Click}/>
-
                 </>
 
             })}
