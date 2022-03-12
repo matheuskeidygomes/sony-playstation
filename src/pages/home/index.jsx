@@ -12,7 +12,7 @@ export default function Home() {
 
     return <>
 
-        <div class="pl-5 pr-5">
+        <div class="pl-5 pr-5 pb-5">
 
             <section>
 

@@ -13,9 +13,9 @@ export default function Menu(props) {
 
                 <img className="w-10 md:hidden absolute top-5 right-5 cursor-pointer" src={quit} onClick={() => props.onClick()} alt="quit" />
 
-                <li className="font p-3 lg:p-5 mt-16 md:mt-0"> <a href="/"> HOME </a> </li>
-                <li className="font p-3 lg:p-5"> <a href="/games"> GAMES </a> </li>
-                <li className="font p-3 lg:p-5"> <a href="/wallpapers"> WALLPAPERS </a> </li>
+                <li className="font p-3 lg:p-5 mt-16 md:mt-0 transition hover:scale-110"> <a href="/"> HOME </a> </li>
+                <li className="font p-3 lg:p-5 transition hover:scale-110"> <a href="/games"> GAMES </a> </li>
+                <li className="font p-3 lg:p-5 transition hover:scale-110"> <a href="/wallpapers"> WALLPAPERS </a> </li>
 
                 <div className="mt-10 md:hidden">
                     <Social menuActive={props.menuActive} />
