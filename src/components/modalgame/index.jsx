@@ -10,9 +10,9 @@ export default function ModalGame(props) {
 
         <div className="flex justify-center items-center opacitty fixed bottom-0 right-0 left-0 top-0 z-10">
 
-            <div className="flex animate-fade flex-col lg:flex-row bg fixed h-screen lg:h-5/6 overflow-y-auto border-t-2 border-b-2 border-gray-900 pt-16 lg:p-10">
+            <div className="flex animate-fade flex-col lg:flex-row bg fixed h-full lg:h-5/6 overflow-y-auto border-t-2 border-b-2 border-gray-900 pt-20 lg:p-10">
 
-                <button className="absolute top-7 right-3" onClick={() => props.Click()}> <img className="w-8" src={X} alt="X"/> </button>
+                <button className="absolute top-9 right-4" onClick={() => props.Click()}> <img className="w-8" src={X} alt="X"/> </button>
 
                 <div className="lg:w-3/5 p-4">
 
