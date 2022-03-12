@@ -12,7 +12,7 @@ export default function ModalGame(props) {
 
             <div className="flex animate-fade flex-col lg:flex-row bg fixed h-full lg:h-5/6 overflow-y-auto border-t-2 border-b-2 border-gray-900 pt-20 lg:p-10">
 
-                <button className="absolute top-9 right-4 transition-all hover:scale-125" onClick={() => props.Click()}> <img className="w-8" src={X} alt="X"/> </button>
+                <button className="absolute top-9 right-1 p-1 transition-all hover:scale-125" onClick={() => props.Click()}> <img className="w-8" src={X} alt="X"/> </button>
 
                 <div className="lg:w-3/5 p-4">
 
