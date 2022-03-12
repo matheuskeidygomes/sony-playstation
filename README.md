@@ -26,8 +26,8 @@ Site de marketing a respeito do console Playstation da Sony. Destinado a anuncia
 - [x] Listar banners de jogos em destaque na página Home.
 - [x] Redirecionar usuário para assistir ao trailer do jogo em destaque.
 - [x] Redirecionar usuário para comprar o jogo em destaque.
-- [ ] Listar jogos exclusivos na página Games.
-- [ ] Verificar informações e screenshots de jogo em específico.
+- [x] Listar jogos exclusivos na página Games.
+- [x] Verificar informações e screenshots de jogo em específico.
 - [ ] Fazer download de papéis de parede disponíveis na página Wallpapers.
 
 # Repositório Online
