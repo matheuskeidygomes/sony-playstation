@@ -9,7 +9,7 @@ export default function Menu(props) {
 
         <nav className={`${props.display} md:block ml-8`}>
 
-            <ul className={`flex flex-col p-5 z-10 md:flex-row md:static md:bg-transparent ${props.menuActive && "items-center justify-center min-h-full w-full fixed top-0 right-0 animate-slide bg-[#ffffff0d] backdrop-blur-xl"}`}>
+            <ul className={`flex flex-col p-5 z-10 md:flex-row md:static md:bg-transparent ${props.menuActive && "items-center justify-center min-h-full w-full fixed top-0 left-0 bottom-0 right-0 animate-slide bg-[#ffffff0d] backdrop-blur-xl"}`}>
 
                 <img className="w-7 md:hidden absolute top-10 right-5 cursor-pointer" src={quit} onClick={() => props.onClick()} alt="quit" />
 

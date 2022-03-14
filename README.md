@@ -1,4 +1,4 @@
-# Calculadora
+# Sony Playstation
 
 Site de marketing a respeito do console Playstation da Sony. Destinado a anunciar jogos em destaque e permitir a visualização de jogos exclusivos da plataforma.
 
