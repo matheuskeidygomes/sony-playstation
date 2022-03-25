@@ -10,10 +10,8 @@ export default function GameList(props) {
 
             {games.map((item, index) => {
 
-                return <>
-                    <GameItem game={item} Click={props.Click}/>
-                </>
-
+                return <GameItem game={item} key={index} Click={props.Click}/>
+            
             })}
 
         </div>
