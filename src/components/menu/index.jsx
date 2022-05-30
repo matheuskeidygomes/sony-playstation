@@ -2,8 +2,11 @@ import React from 'react';
 import quit from '../images/icons/x.png';
 import Social from '../social';
 import './index.css';
+import { useNavigate } from 'react-router-dom';
 
 export default function Menu(props) {
+
+    const navigate = useNavigate();
 
     return <>
 
@@ -13,9 +16,9 @@ export default function Menu(props) {
 
                 <img className="w-7 md:hidden absolute top-10 right-5 cursor-pointer" src={quit} onClick={() => props.onClick()} alt="quit" />
 
-                <li className="font p-3 lg:p-5 mt-16 md:mt-0 transition hover:scale-110"> <a href="/"> HOME </a> </li>
-                <li className="font p-3 lg:p-5 transition hover:scale-110"> <a href="/games"> GAMES </a> </li>
-                <li className="font p-3 lg:p-5 transition hover:scale-110"> <a href="/wallpapers"> WALLPAPERS </a> </li>
+                <li className="font p-3 lg:p-5 mt-16 md:mt-0 transition hover:scale-110 cursor-pointer" onClick={() => { navigate("/"); props.desactiveMenu(); }}> HOME </li>
+                <li className="font p-3 lg:p-5 transition hover:scale-110 cursor-pointer" onClick={() => { navigate("/games"); props.desactiveMenu(); }}> GAMES </li>
+                <li className="font p-3 lg:p-5 transition hover:scale-110 cursor-pointer" onClick={() => { navigate("/wallpapers"); props.desactiveMenu(); }}> WALLPAPERS </li>
 
                 <div className="mt-10 md:hidden">
                     <Social menuActive={props.menuActive} />

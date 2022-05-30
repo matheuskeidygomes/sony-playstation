@@ -19,7 +19,7 @@ export default function Header() {
 
             <div className="flex items-center justify-between md:grow">
 
-                <NavMenu onClick={()=> setMenuActive(!menuActive)} menuActive={menuActive} display={display} />
+                <NavMenu onClick={()=> setMenuActive(!menuActive)} menuActive={menuActive} desactiveMenu={() => setMenuActive(false)} display={display} />
               
                 <Social />
 
